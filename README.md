@@ -1,191 +1,167 @@
-# Amber Locasto | Data Analytics Portfolio
+# Hi, I’m Amber! 👋
 
-Welcome! I am an HTL(ASCP)-certified histotechnologist and M.S. Informatics & Analytics candidate with a concentration in Clinical Informatics. I am combining my laboratory and healthcare experience with data analytics, machine learning, and informatics.
+### 🧬 Histotechnologist | 📊 Data & Healthcare Analytics | 🎓 M.S. Informatics & Analytics Candidate
 
-My goal is to use data to improve healthcare operations, clinical workflows, and decision-making. This portfolio contains projects completed through graduate coursework and independent study.
+I am an **HTL(ASCP)-certified histotechnologist** with a background in biology, pathology, and healthcare. I am currently earning my **Master of Science in Informatics and Analytics** at the University of North Carolina at Greensboro, with a concentration in **Clinical Informatics**.
 
-## Technical Skills
+I enjoy combining my laboratory experience with data to solve practical problems—especially within healthcare, pathology, and clinical operations. 🔬💻
 
-* **Programming:** Python, SQL, R
-* **Data Analysis:** pandas, NumPy, statistical analysis, exploratory data analysis
-* **Machine Learning:** scikit-learn, TensorFlow, XGBoost, clustering, classification
-* **Text Analytics:** TF-IDF, sentence embeddings, cosine similarity, semantic search
-* **Visualization:** Power BI, Matplotlib, Seaborn, ggplot2
-* **Databases and Tools:** PostgreSQL, Jupyter Notebook, VS Code, Git, GitHub
-* **Healthcare:** Histology, pathology workflows, clinical informatics, healthcare data
+## 🚀 What I’m Working Toward
 
-## Featured Projects
+I am developing the skills needed to transition into roles such as:
 
-### Explainable Colorectal Histology AI
+* Healthcare Data Analyst
+* Clinical Informatics Analyst
+* Laboratory or Pathology Informatics Analyst
+* Business Intelligence Analyst
+* Data Analyst
+* Bioinformatics Analyst
+* Junior Data Scientist
 
-An in-progress deep learning project that combines my professional histology background with computer vision and explainable artificial intelligence.
+I am particularly interested in **remote and hybrid opportunities** where I can use data to improve healthcare processes, efficiency, and decision-making.
 
-* Explored the PathMNIST colorectal histology image dataset
+## 🛠️ Technical Toolbox
+
+### Languages
+
+* 🐍 Python
+* 🗄️ SQL
+* 📈 R
+
+### Data and Visualization
+
+* Power BI
+* DAX
+* Excel
+* pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* ggplot2
+
+### Machine Learning and Analytics
+
+* Scikit-learn
+* TensorFlow and Keras
+* XGBoost
+* Classification
+* Clustering
+* Statistical analysis
+* Natural language processing
+* Sentence embeddings and semantic search
+
+### Tools
+
+* PostgreSQL
+* Jupyter Notebook
+* VS Code
+* Git and GitHub
+* Tableau
+
+## 🌟 Featured Projects
+
+### 🔬 Explainable Colorectal Histology AI
+
+An in-progress deep learning project combining my professional histology experience with computer vision and explainable artificial intelligence.
+
+* Explored and prepared the PathMNIST colorectal histology dataset
+* Built TensorFlow preprocessing and data-augmentation pipelines
 * Analyzed tissue classes, image properties, and class distributions
-* Created TensorFlow preprocessing and data-augmentation pipelines
 * Preparing to compare CNN and transfer-learning models
-* Planning to use Grad-CAM to examine which tissue features influence predictions
 
-**Tools:** Python, TensorFlow, Keras, NumPy, Matplotlib, computer vision
-
-[View the project](https://github.com/amberlin2/explainable-colorectal-histology-ai)
+➡️ [View the project](https://github.com/amberlin2/explainable-colorectal-histology-ai)
 
 ---
 
-### Customer Support Semantic Search
+### 💬 Customer Support Semantic Search
 
-Compared traditional keyword-based search with modern sentence embeddings using a customer-support question-and-answer dataset.
+Compared traditional keyword search with modern sentence embeddings using customer-support questions and answers.
 
-* Represented text using Bag-of-Words and TF-IDF
-* Created sentence embeddings with `all-MiniLM-L6-v2`
-* Used cosine similarity to retrieve the five most relevant questions
-* Compared keyword matching with meaning-based semantic retrieval
-* Built a reusable search function for testing new customer questions
+* Created Bag-of-Words and TF-IDF representations
+* Generated sentence embeddings using `all-MiniLM-L6-v2`
+* Used cosine similarity to retrieve related questions
+* Compared keyword-based and meaning-based search results
 
-**Tools:** Python, pandas, scikit-learn, Sentence Transformers, Matplotlib, NLP
-
-[View the project](https://github.com/amberlin2/customer-support-semantic-search)
+➡️ [View the project](https://github.com/amberlin2/customer-support-semantic-search)
 
 ---
 
-### Handwritten Digit Clustering
+### ✍️ Handwritten Digit Clustering
 
-Compared three unsupervised learning methods on 1,797 handwritten digit images.
+Compared unsupervised machine-learning methods on 1,797 handwritten digit images.
 
 * Applied K-Means, DBSCAN, and hierarchical clustering
-* Used the elbow method to select the number of clusters
-* Evaluated results using Adjusted Rand Index and Normalized Mutual Information
-* Found that K-Means produced the strongest results
-* Examined why DBSCAN struggled with high-dimensional image data
+* Evaluated results using ARI and NMI
+* Found that K-Means produced the strongest clustering results
+* Examined the challenges of clustering high-dimensional image data
 
-**Tools:** Python, scikit-learn, SciPy, NumPy, Matplotlib, clustering
-
-[View the project](https://github.com/amberlin2/handwritten-digit-clustering)
+➡️ [View the project](https://github.com/amberlin2/handwritten-digit-clustering)
 
 ---
 
-### Hospital Operations Analytics
+### 🏥 Healthcare Classification Machine Learning
 
-Analyzed hospital operations data to identify patterns involving patients, employees, scheduling, and workplace morale.
+Compared Random Forest and XGBoost models using approximately 55,000 healthcare records.
 
-* Cleaned and prepared multiple healthcare datasets
-* Performed exploratory data analysis
-* Created visualizations to communicate operational patterns
-* Interpreted the results within a realistic healthcare environment
-* Connected data findings to staffing and operational decisions
-
-**Tools:** Python, pandas, NumPy, Matplotlib, Seaborn
-
-[View the project folder](./project_hospital_operations_python)
-
----
-
-### AdventureWorks Sales Analytics
-
-Used SQL and Power BI to analyze customer spending, sales trends, products, and territory performance.
-
-* Wrote SQL queries using joins, common table expressions, and window functions
-* Built a relational data model
-* Created measures and calculations for business performance
-* Designed interactive Power BI dashboards
-* Converted analysis results into practical business insights
-
-**Tools:** SQL, PostgreSQL, Power BI, DAX, data modeling
-
-[View the project folder](./project_adventureworks_sql_powerbi)
-
----
-
-### Breast Cancer Classification
-
-Built a machine-learning workflow to classify breast tumors as malignant or benign.
-
-* Explored and prepared diagnostic data
-* Trained and evaluated classification models
-* Compared model performance using appropriate evaluation metrics
-* Visualized patterns and results
-* Considered how predictive modeling could support healthcare analysis
-
-**Tools:** Python, pandas, scikit-learn, Power BI, machine learning
-
-[View the project](https://github.com/amberlin2/breast-cancer-ml-project)
-
----
-
-### Healthcare Classification Machine Learning
-
-Compared Random Forest and XGBoost models for predicting patient test-result categories.
-
-* Analyzed approximately 55,000 healthcare records
-* Cleaned clinical and demographic variables
+* Cleaned and prepared clinical and demographic data
 * Engineered a length-of-stay feature
-* Used one-hot encoding and numerical scaling
-* Compared baseline and tuned models using accuracy, F1 score, and ROC-AUC
-* Found that additional model complexity did not automatically improve performance
+* Compared baseline and tuned models
+* Evaluated results using accuracy, F1 score, and ROC-AUC
 
-**Tools:** Python, pandas, scikit-learn, XGBoost, machine learning
-
-[View the project](https://github.com/amberlin2/Healthcare-Classification-Machine-Learning-Project)
+➡️ [View the project](https://github.com/amberlin2/Healthcare-Classification-Machine-Learning-Project)
 
 ---
 
-### DNA Sequence Analysis
+### 🎗️ Breast Cancer Classification
 
-Used Python and Biopython to examine and analyze biological sequence data.
+Developed a machine-learning workflow to classify breast tumors as malignant or benign.
+
+* Performed exploratory data analysis and preprocessing
+* Trained and compared classification models
+* Evaluated model performance
+* Visualized findings using Python and Power BI
+
+➡️ [View the project](https://github.com/amberlin2/breast-cancer-ml-project)
+
+---
+
+### 🧬 DNA Sequence Analysis
+
+Applied Python and Biopython to biological sequence data.
 
 * Imported and processed DNA sequences
 * Calculated sequence characteristics
-* Applied programming techniques to a biological-data problem
-* Connected my biology background with bioinformatics tools
+* Connected biology concepts with programming and bioinformatics
 
-**Tools:** Python, Biopython, Jupyter Notebook, bioinformatics
+➡️ [View the project](https://github.com/amberlin2/DNA-Sequence-Analysis)
 
-[View the project](https://github.com/amberlin2/DNA-Sequence-Analysis)
+## 📂 Complete Portfolio
 
-## Current Development
+Want to see more of my work in Python, SQL, Power BI, R, healthcare analytics, and machine learning?
 
-I am continuing to expand my skills through projects involving:
+➡️ [Explore my complete data analytics portfolio](https://github.com/amberlin2/Amber-Data-Analytics-Portfolio)
 
-* Healthcare and clinical informatics
+## 🌱 Currently Learning
+
+* Healthcare data interoperability and FHIR
 * Natural language processing
 * Machine learning and deep learning
 * SQL and data engineering
+* Wearable and sensor-data analytics
 * Power BI dashboard development
-* FHIR and healthcare interoperability
-* Wearable and sensor data analytics
 
-## Career Interests
+## 🙋‍♀️ A Little More About Me
 
-I am especially interested in opportunities involving:
+* 🔬 I work professionally in histology and anatomical pathology
+* 🥎 I am a former collegiate softball player and currently coach high school softball
+* 🧠 I enjoy learning how technology can improve healthcare
+* 📍 Based in Mooresville, North Carolina
+* 🎯 Seeking healthcare informatics, analytics, and data opportunities
 
-* Healthcare Data Analytics
-* Clinical Informatics
-* Laboratory and Pathology Informatics
-* Data Analytics
-* Business Intelligence
-* Bioinformatics
-* Machine Learning and Data Science
+## 📫 Let’s Connect!
 
-## Contact
+* 💼 [LinkedIn](https://www.linkedin.com/in/amber-locasto-058a61207/)
+* 💻 [GitHub](https://github.com/amberlin2)
+* 📧 [Email me](mailto:amberlinlocasto2@gmail.com)
 
-* [LinkedIn](https://www.linkedin.com/in/amber-locasto-058a61207/)
-* [GitHub](https://github.com/amberlin2)
-* Email: [amberlinlocasto2@gmail.com](mailto:amberlinlocasto2@gmail.com)
-
-Thank you for viewing my portfolio!
-
-
-<!--
-**amberlin2/amberlin2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Thanks for visiting my profile! 😊
